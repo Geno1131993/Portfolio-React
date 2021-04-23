@@ -1,0 +1,231 @@
+/* Desktop css -- mobile to come later */
+
+@media screen and (min-width: 800px){
+
+
+*{
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Garamond, serif;
+}
+
+
+
+@keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+}
+
+
+@-webkit-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+}
+
+
+
+  @-moz-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+}
+
+
+body{
+    overflow: auto;
+}
+
+#background{
+   width: 100vw;
+   height: 100vh;
+   right: 0;
+   top: 0;
+   position: absolute;
+   background: url("../images/honeycombs_seafoam.png");
+   z-index: -2;
+   zoom: 100%;
+   min-zoom: 50%;
+   max-zoom: 150%;
+   background-size: 100%;
+   background-attachment: fixed;
+   overflow: auto;
+}
+
+
+
+.gradient{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -3;
+    background: url("../images/gradient-1.png") no-repeat center center fixed;
+    -webkit-animation: Gradient 20s ease infinite;
+    -moz-animation: Gradients 20s ease infinite;
+    animation: Gradient 20s ease infinite;
+    overflow: auto;
+    background-size: 300%;
+}
+
+
+.banner{
+    background-color: rgba(255, 156, 96, .95);
+    padding: 1%;
+    transition: .5s;
+}
+
+
+.banner:hover{
+    background-color: rgba(255, 192, 216, .85);
+    transition: .5s;
+}
+
+
+
+
+.icon_title{
+    font-size: 3rem;
+    margin: 2%;
+    color: white;
+}
+
+.icon_container{
+    width: 25rem;
+    height: 25rem;
+    background-color: rgba(255, 156, 96, .95);
+    margin: 1rem auto;
+    padding: 1%;
+    display: block;
+    text-align: center;
+    transition: .5s;
+    border-radius: 1rem;
+}
+
+
+
+.icon_container:hover{
+    background-color: rgba(255, 192, 216, .90);
+    transform: scale(1.1);
+}
+
+
+
+.icon_container:active{
+    background-color: rgba(128, 144, 255, .85);
+    transition: .25s;
+}
+
+
+#logo{
+    font-size: 5rem;
+    color: white;
+    /* margin: 5%; */
+    white-space: nowrap;
+}
+
+
+
+#about_icon{
+    background: url("../images/chalk_weeds.png");
+    background-size: 100%;
+    width: 65%;
+    height: 65%;
+    margin: 1%;
+}
+
+
+
+#projects_icon{
+    background: url("../images/chalk_laurel.png");
+    background-size: 100%;
+    width: 65%;
+    height: 65%;
+    margin: 1%;
+}
+
+
+
+#contact_icon{
+    background: url("../images/chalk_crosshairs.png");
+    background-size: 100%;
+    width: 65%;
+    height: 65%;
+    margin: 1%;
+}
+
+
+
+#invisible{
+    display: none;
+}
+
+
+
+#column_wrapper{
+    width: 100rem;
+    height: 100%;
+    max-width: 100vw;
+    display: block;
+    margin: auto;
+}
+
+
+
+#columns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem auto;
+}
+
+
+
+#footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    position: fixed;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+
+#sig{
+    font-size: 1.5rem;
+    color: white;
+    white-space: nowrap;
+}
+
+#sig_icon{
+    background: url("../images/signature.png");
+    background-size: 45%;
+    height: 1.5rem;
+    width: 10rem;
+    margin-left: 8%;
+    background-repeat: no-repeat;
+}
+
+
+
+}

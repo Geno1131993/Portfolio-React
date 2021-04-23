@@ -1,0 +1,46 @@
+/* Desktop css, mobile to come later */
+
+
+@media screen and (min-width: 800px){
+
+
+    body{
+        display: block;
+        text-align: center;
+    }
+
+    #wrapper{
+        display: inline-block;
+        overflow:auto;
+        background-attachment: fixed;
+        position: relative;
+        /* height: 70vh; */
+        width: 80rem;
+        max-width: 80%;
+        height: 65vh;
+        background-color: rgba(255, 156, 96, .95);
+        margin: auto;
+        border-radius: 1rem;
+    }
+
+    #lotus-tiles{
+        background: url("../images/lotus-tiles-transparent.png");
+        z-index: 3;
+        height: 40rem;
+        width: 15rem;
+        background-size: 70%;
+        background-repeat: no-repeat;
+    }
+
+
+    #github-repos-container{
+        /* left: 0; */
+        text-align: left;
+    }
+
+
+
+
+
+
+}
