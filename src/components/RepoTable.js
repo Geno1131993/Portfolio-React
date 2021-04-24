@@ -38,7 +38,6 @@ class RepoTable extends Component{
 
 
     render() {
-
         const list_repos = this.state.repos.map( repo =>
             <li key = {repo.name} className="repo">
                 <a href = {repo.html_url} rel = "noreferrer" target = "_blank">

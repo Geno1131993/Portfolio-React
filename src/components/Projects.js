@@ -28,12 +28,13 @@ class Projects extends Component {
     get_repos(){
         let repos = [];
         axios
-            .get("http://api.github.com/users/Geno1131993/repos")
+            .get("https://api.github.com/users/Geno1131993/repos")
             .then(function(response){
                 for(let i = 0; i < response.data.length; i++){
                     repos.push(response.data[i]);
                 }
             });
+            console.log(repos);
         return repos;
     }
 
