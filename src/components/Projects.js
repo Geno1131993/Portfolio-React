@@ -43,9 +43,7 @@ class Projects extends Component {
 
 
     render() {
-        // let repos = this.get_repos();
-        // console.log(repos);
-        // console.log(repos[0]);
+       
         return (
             <div className="Projects">
                 <title>Projects</title>

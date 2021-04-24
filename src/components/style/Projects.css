@@ -30,14 +30,92 @@
         width: 15rem;
         background-size: 70%;
         background-repeat: no-repeat;
+        left: 0;
+        float: left;
     }
 
 
     #github-repos-container{
-        /* left: 0; */
+        float: left;
         text-align: left;
+        width: 80%;
+        height: 90%;
+        background-color: red;
+
+        overflow: auto;
     }
 
+
+
+    .repo_title{
+        color: white;
+        font-size: 2rem;
+        /* float:left; */
+
+        left: 0;
+    }
+
+
+    .repo_description{
+        color: white;
+        font-size: 1.5rem;
+        /* float:left; */
+        left: 0;
+        width: 80%;
+    }
+
+
+
+    .repo_info:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+
+
+    .icon{
+        width: 3rem;
+        height: 3rem;
+        margin: 1%;
+        background-size: 100%;
+
+        float:left;
+        left: 0;
+    }
+
+
+
+    #lotus1{
+        background: url("../images/lotus-1.png");
+    
+        background-color: green;
+    }
+
+
+    #lotus2{
+        background: url("../images/lotus-2.png");
+        background-color:purple;
+    }
+
+
+
+    #lotus3{
+        background: url("../images/lotus-3.png");
+        background-color: blue;
+    }
+
+
+    #lotus4{
+        background: url("../images/lotus-4.png");
+        background-color: yellow;
+    }
+
+
+    #lotus5{
+        background: url("../images/lotus-5.png");
+        background-color: pink;
+    }
 
 
 

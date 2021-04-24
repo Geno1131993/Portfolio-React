@@ -15,10 +15,10 @@ class Repo extends Component{
 
 
     render() {
-        console.log(this.state.repo);
+        console.log(this.state.repo.name);
         return (
-            <div>
-                {this.state.repo.name}
+            <div className = "repo">
+                Name: {this.state.repo.name}
             </div>
         );
     }
