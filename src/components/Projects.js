@@ -9,7 +9,6 @@ import "./style/Projects.css";
 
 
 
-
 class Projects extends Component {
 
     constructor(props){
@@ -18,9 +17,7 @@ class Projects extends Component {
         this.state = {
             repos: this.get_repos()
         }
-
     }
-
 
 
 
@@ -34,17 +31,20 @@ class Projects extends Component {
                     repos.push(response.data[i]);
                 }
             });
-            console.log(repos);
         return repos;
     }
+    
+    
 
 
     
+    componentWillUnmount(){
+        console.log("From projects will unmount");
+    }
     
 
 
     render() {
-       
         return (
             <div className="Projects">
                 <title>Projects</title>
@@ -74,7 +74,7 @@ class Projects extends Component {
 
 
                     <div id = "github-repos-container">
-                        <RepoTable repos = {this.state.repos}/>
+                        <RepoTable key = "repo_table"></RepoTable>
                     </div>
 
                 </div>
