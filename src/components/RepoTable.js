@@ -1,8 +1,7 @@
-import React, {Component, useEffect} from "react";
-import { NavLink } from "react-router-dom";
+import React, {Component} from "react";
+// import { NavLink } from "react-router-dom";
 import axios from "axios";
 import Repo from "./Repo.js"
-import "bulma/css/bulma.css";
 
 
 
@@ -28,8 +27,6 @@ class RepoTable extends Component {
         axios
           .get("https://api.github.com/users/Geno1131993/repos")
           .then( (response) =>{
-              console.log(response.data);
-              console.log(this);
               this.setState({repos: response.data});
           });
       
