@@ -1,7 +1,7 @@
 /* Desktop css, mobile to come later */
 
 
-@media screen and (min-width: 800px){
+/* @media screen and (min-width: 800px){ */
 
 
     body{
@@ -94,11 +94,7 @@
 
 
     .lotus{
-        width: 3rem;
-        height: 3rem;
         margin: 1%;
-        background-size: cover;
-        background-repeat: no-repeat;
         float:left;
         left: 0;
     }
@@ -154,4 +150,3 @@
 
 
 
-}
