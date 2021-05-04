@@ -1,12 +1,17 @@
 import "bulma/css/bulma.css";
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-
+import Link from "./Link.js";
 
 
 //Supports up to three button links
 function Header(props) {
-    console.log("from Header.js");
+
+    let buttons = [];
+    if (props.buttons) {
+        buttons = props.buttons.map((button) => {
+            return <Link key = {button[1]} path={button[0]} name={button[1]} title={button[2]}></Link>
+        });
+    }
+
     return (
         <nav id="header" className="level banner">
             <div className="level-left">
@@ -16,9 +21,9 @@ function Header(props) {
             </div>
             <div className="level-right">
                 <div className="level-item">
-                    {props.button1}
-                    {props.button2}
-                    {props.button3}
+                    <ul id = "button_container">
+                        {buttons}
+                    </ul>
                 </div>
             </div>
         </nav>

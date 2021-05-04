@@ -12,6 +12,8 @@ class Repo extends Component {
         }
     }
 
+
+
     random(){
         let key = Math.floor((Math.random() * 5) + 1);
         switch(key){
@@ -33,7 +35,6 @@ class Repo extends Component {
 
     render() {
         return (
-
             <li key = {this.state.repo.name} className="repo">
                 <a href={this.state.repo.html_url} rel="noreferrer" target="_blank">
                     <div className="repo_title">{this.state.repo.name}</div>
@@ -46,5 +47,7 @@ class Repo extends Component {
         );
     }
 }
+
+
 
 export default Repo;

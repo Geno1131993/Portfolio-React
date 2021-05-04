@@ -1,9 +1,6 @@
 import React, {Component} from "react";
-// import { NavLink } from "react-router-dom";
 import axios from "axios";
 import Repo from "./Repo.js"
-
-
 
 
 
@@ -17,7 +14,6 @@ class RepoTable extends Component {
     }
 
     
-
     componentDidMount(){
         this.get_repos();
     }
@@ -34,9 +30,6 @@ class RepoTable extends Component {
 
 
     render() {
-
-
-        // console.log(this.state.repos);
         const repo_list = this.state.repos.map( (repo) => {
            return (<Repo key = {repo.name} repo = {repo}></Repo>);
         });
@@ -48,8 +41,6 @@ class RepoTable extends Component {
         );
     }
 }
-
-
 
 
 
