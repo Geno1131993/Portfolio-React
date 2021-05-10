@@ -22,8 +22,6 @@ class Home extends Component {
 
 
     render() {
-
-
         return (
 
             <div className="Home">
@@ -40,7 +38,7 @@ class Home extends Component {
 
 
                 {/* Header */}
-                <Header title="Welcome!"></Header>
+                <Header title="Welcome!"/>
 
 
 
@@ -50,10 +48,10 @@ class Home extends Component {
                 <div id="column_wrapper">
 
                     <div id="columns">
-                  
-                        <Icon name = "about" title = "About"></Icon>
-                        <Icon name = "projects" title = "Projects"></Icon>
-                        <Icon name = "contact" title = "Contact"></Icon> 
+
+                        <Icon name="about" title="About"></Icon>
+                        <Icon name="projects" title="Projects"></Icon>
+                        <Icon name="contact" title="Contact"></Icon>
 
                     </div>
 
@@ -62,7 +60,7 @@ class Home extends Component {
 
                 {/* Footer */}
 
-                <Footer></Footer>
+                <Footer/>
 
             </div>
         );

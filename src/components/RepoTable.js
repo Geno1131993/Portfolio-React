@@ -25,7 +25,6 @@ class RepoTable extends Component {
           .then( (response) =>{
               this.setState({repos: response.data});
           });
-      
       };
 
 

@@ -13,7 +13,7 @@ class Projects extends Component {
 
     render() {
 
-        let buttons = [ ["", "home", "Home"], ["about", "about", "About"], ["contact", "contact", "Contact"] ];
+        let buttons = [["", "home", "Home"], ["about", "about", "About"], ["contact", "contact", "Contact"]];
 
         return (
             <div className="Projects">
@@ -25,7 +25,7 @@ class Projects extends Component {
 
                 {/* Header */}
 
-                <Header title="Projects" buttons = {buttons} />
+                <Header title="Projects" buttons={buttons} />
 
 
 
@@ -34,7 +34,7 @@ class Projects extends Component {
                 <div id="wrapper">
                     <div id="lotus-tiles"></div>
                     <div id="github-repos-container">
-                        <RepoTable key="repo_table"></RepoTable>
+                        <RepoTable key="repo_table"/>
                     </div>
                 </div>
 
@@ -42,7 +42,7 @@ class Projects extends Component {
 
                 {/* Footer */}
 
-                <Footer />
+                <Footer/>
 
             </div>
         );

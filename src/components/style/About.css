@@ -1,0 +1,78 @@
+
+
+.thumbnail{
+    /* width: 25%; */
+    width: 28%;
+    height: 30rem;
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2%;
+    float: left;
+    transition: .3s;
+}
+
+
+.thumbnail:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
+
+.slides{
+    width: 80%;
+    margin: 1% auto;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.controller_button{
+    font-size: 2rem;
+    font-family: "Trebuchet MS", sans-serif;
+    margin-right: 3%;
+    transition: .2s;
+}
+
+
+.controller_button:hover{
+    color:rgba(128, 144, 255, .85);
+    transition: .2s;
+}
+
+
+.controller_button:active{
+    color: rgba(51, 0, 102, 1);
+    transition: .2s;
+}
+
+
+#slides_container{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    float: left;
+}
+
+
+
+#about_container{
+    width: 85rem;
+    height: 65vh;
+    background-color: rgba(255, 156, 96, .95);
+    margin: 2% auto;
+    padding: 3% auto;
+    color: white;
+    overflow: auto;
+    border-radius: 1rem;
+}
+
+
+#adventure{
+    font-size: 2.5rem;
+}
+
+
+
