@@ -1,6 +1,142 @@
+
+
+
+@media screen and (max-width: 800px){
+
+
+    body{
+        background-color: rgba(102, 204, 102, 1);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: none;
+        width: 100%;
+        height: 100vh;
+        overflow: auto;
+        color: white;
+    }
+    
+#logo{
+    font-size: 5rem;
+    color: white;
+    white-space: nowrap;
+}
+    
+    .banner{
+        background-color: rgba(255, 156, 96, 100);
+        padding: 1%;
+        transition: .5s;
+        width: 100%;
+        color: white;
+    }
+    
+    
+    .banner:hover{
+        background-color: rgba(255, 192, 216, 100);
+        transition: .5s;
+    }
+    
+    #footer{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: white;
+        position: fixed;
+        padding: 1%;
+    }
+    
+    
+    
+    
+    .icon_title{
+        font-size: 3rem;
+        margin: 2%;
+        color: white;
+    }
+    
+    .icon_container{
+        width: 20rem;
+        width: 20rem;
+    
+        background-color: rgba(255, 156, 96, 100);
+        margin: 1rem auto;
+        padding: 1%;
+        display: block;
+        text-align: center;
+        transition: .5s;
+        border-radius: 1rem;
+    }
+    
+    
+    
+    .icon_container:hover{
+        background-color: rgba(255, 192, 216, .90);
+        transform: scale(1.1);
+    }
+    
+    
+    
+    .icon_container:active{
+        background-color: rgba(128, 144, 255, .85);
+        transition: .25s;
+    }
+    
+    
+    #about_icon{
+        background: url("../images/chalk_weeds.png");
+        background-size: cover;
+        background-repeat: none;
+        width: 15rem;
+        height: 15rem;
+        margin: 1%;
+    }
+    
+    
+    
+    #projects_icon{
+        background: url("../images/chalk_laurel.png");
+        background-size: cover;
+        background-repeat: none;
+        width: 15rem;
+        height: 15rem;
+        margin: 1%;
+    }
+    
+    
+    
+    #contact_icon{
+        background: url("../images/chalk_crosshairs.png");
+        background-size: cover;
+        background-repeat: none;
+        width: 15rem;
+        height: 15rem;
+        margin: 1%;
+    }
+    
+
+    
+#sig{
+    font-size: 1.5rem;
+    color: white;
+    white-space: nowrap;
+}
+
+#sig_icon{
+    background: url("../images/signature.png");
+    background-size: 45%;
+    height: 1.5rem;
+    width: 10rem;
+    margin-left: 8%;
+    background-repeat: no-repeat;
+}
+
+}
+    
+
+
+
 /* Desktop css -- mobile to come later */
 
-/* @media screen and (min-width: 800px){ */
+@media screen and (min-width: 800px){
 
 
 *{
@@ -51,8 +187,6 @@
 }
 
 
-body{
-}
 
 #background{
    width: 100vw;
@@ -139,7 +273,6 @@ body{
 
 
 .button{
-    /* margin: %; */
     font-family: "Trebuchet MS", sans-serif;
     border: none;
     background: none;
@@ -248,5 +381,5 @@ body{
 }
 
 
-
+}
 

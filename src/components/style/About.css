@@ -81,4 +81,13 @@
 
 
 @media only screen and (max-width: 800px) {
+
+    #about_container{
+        width: 90%;
+        min-width:  420px;
+        height: 50vh;
+        background-color: purple;
+    }
+
+
 }
