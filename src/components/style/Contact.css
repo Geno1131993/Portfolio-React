@@ -4,6 +4,7 @@
         display: none;
         transition: .3s;
     }
+
     #contact_container{
         background-color: rgba(255, 156, 96, .95);
         width: 85%;
@@ -12,8 +13,7 @@
         overflow: auto;
         border-radius: 1rem;
         padding: 3%;
-
-        padding-bottom: 15%;
+        /* padding-bottom: 15%; */
     }
 
 
@@ -25,7 +25,7 @@
     }
     
     #like_this{
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: "Trebuchet MS", sans-serif;
         margin: 2%;
         color: white;
@@ -34,7 +34,7 @@
     
     
     #contact_me{
-        font-size: 4rem;
+        font-size: 2rem;
         margin: 2%;
         color: white;
     }
@@ -107,7 +107,7 @@
 .tab{
     margin: 2%;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "Trebuchet MS", sans-serif;
     transition: .2s;
 }
@@ -131,9 +131,9 @@
 .content_body{
     float:left;
     margin: 2%;
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: rgba(102, 204, 153, 1);
-    width: 70%;
+    width: 85%;
     padding: 2%;
     border-radius: 1rem;
     color: white;

@@ -78,7 +78,7 @@ class Contact extends Component {
                                 <div className="content_body">
 
                                     <p> Send me an email! </p>
-                                    <a id="email_link" rel="noreferrer" href="mailto:ukka.ukka.nuka.nuka.appu.wa@gmail.com"> ukka.ukka.nuka.nuka.appu.wa@gmail.com</a>
+                                    <a id="email_link" rel="noreferrer" href="mailto:ukka.ukka.nuka.nuka.appu.wa@gmail.com"> Click here </a>
 
                                 </div>
                             </div>
