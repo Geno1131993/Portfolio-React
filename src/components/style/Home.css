@@ -1,11 +1,11 @@
 
-
+/* Mobile css  */
 
 @media screen and (max-width: 800px){
 
 
     body{
-        background-color: rgba(102, 204, 102, 1);
+        background-color: rgba(51, 102, 153, 1);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: none;
@@ -13,6 +13,7 @@
         height: 100vh;
         overflow: auto;
         color: white;
+        padding-bottom: 18%;
     }
     
 #logo{
@@ -27,6 +28,7 @@
         transition: .5s;
         width: 100%;
         color: white;
+        /* margin: 1rem; */
     }
     
     
@@ -56,9 +58,8 @@
     .icon_container{
         width: 20rem;
         width: 20rem;
-    
         background-color: rgba(255, 156, 96, 100);
-        margin: 1rem auto;
+        margin: 2rem auto;
         padding: 1%;
         display: block;
         text-align: center;
@@ -115,26 +116,48 @@
 
     
 #sig{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
     white-space: nowrap;
 }
 
 #sig_icon{
     background: url("../images/signature.png");
-    background-size: 45%;
-    height: 1.5rem;
+    background-size: contain;
+    height: 1rem;
     width: 10rem;
     margin-left: 8%;
     background-repeat: no-repeat;
 }
+#column_wrapper{
+    margin-bottom: 5%;
+}
+
+
+
+.button{
+    font-family: "Trebuchet MS", sans-serif;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2rem;
+    transition: .2s;
+}
+
+
+.button:hover{
+    color: rgba(153, 102, 204, 1);
+    transform: scale(1.05);
+    transition: .2s;
+}
+
 
 }
     
 
 
 
-/* Desktop css -- mobile to come later */
+/* Desktop css */
 
 @media screen and (min-width: 800px){
 

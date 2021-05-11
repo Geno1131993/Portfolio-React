@@ -1,3 +1,72 @@
+@media only screen and (max-width: 800px) {
+
+    #about_container{
+        width: 85%;
+        background-color: rgba(255, 156, 96, .95);
+        margin: auto;
+        border-radius: 1rem;
+    }
+    .thumbnail{
+        width: 28%;
+        height: 15rem;
+        background-color: black;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 2%;
+        float: left;
+        transition: .3s;
+    }
+
+
+    
+.thumbnail:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
+
+.slides{
+    width: 80%;
+    margin: 1% auto;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.controller_button{
+    font-size: 2rem;
+    font-family: "Trebuchet MS", sans-serif;
+    margin-right: 3%;
+    transition: .2s;
+}
+
+
+.controller_button:hover{
+    color:rgba(128, 144, 255, .85);
+    transition: .2s;
+}
+
+
+.controller_button:active{
+    color: rgba(51, 0, 102, 1);
+    transition: .2s;
+}
+
+
+#slides_container{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    float: left;
+}
+
+
+
+}
+
+
 
 @media only screen and (min-width: 800px) {
 
@@ -80,14 +149,3 @@
 }
 
 
-@media only screen and (max-width: 800px) {
-
-    #about_container{
-        width: 90%;
-        min-width:  420px;
-        height: 50vh;
-        background-color: purple;
-    }
-
-
-}
