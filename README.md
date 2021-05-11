@@ -4,7 +4,10 @@ Purpose: A rework of a previous portfolio idea, redesigned to appear more profes
 
 https://dsmith-portfolio-react.herokuapp.com/projects
 
-A mobile/device version is currently not supported, this is coming later.
+It is currently desktop and mobile compatible.
 
-This project is still in progress.
+Planned improvements:
 
+-- On the About page, a matrix of artwork photos will be added to demonstrate tile structure
+-- On the About page, the slides will "slide" left and right
+-- On the Projects page, links to Heroku pages will be added
