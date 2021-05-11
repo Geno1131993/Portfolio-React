@@ -206,8 +206,8 @@ body{
 
 
 #column_wrapper{
-    width: 100rem;
-    max-width: 100vw;
+    width: 100%;
+    height: 70vh;
     margin: auto;
     transform: translateY(25%);
 }

@@ -8,8 +8,13 @@ class Repo extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            repo: props.repo
+            repo: []
         }
+    }
+
+
+    componentDidMount(){
+        this.setState({repo: this.props.repo});
     }
 
 

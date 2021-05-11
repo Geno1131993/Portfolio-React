@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import React from "react";
 import Header from "./Header.js";
 import Footer from "./Footer.js";
 import Slides from "./Slides.js";
@@ -32,19 +31,23 @@ function About() {
        folsom
     ];
 
-
-
     return (
         <div className="About">
             <title>About</title>
             <div id="background"></div>
             <div className="gradient"></div>
+
+            {/* Header */}
             <Header title="About" buttons={buttons} />
+
+            {/* About page content -- currently contains photo slideshow, will add artwork images later */}
+
             <div id="about_container">
                 <Slides images={images} interval={1000} />
-
-
             </div>
+
+
+            {/* Footer */}
 
             <Footer />
 

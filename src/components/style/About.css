@@ -1,7 +1,7 @@
 
+@media only screen and (min-width: 800px) {
 
 .thumbnail{
-    /* width: 25%; */
     width: 28%;
     height: 30rem;
     background-color: black;
@@ -70,9 +70,15 @@
 }
 
 
+
 #adventure{
     font-size: 2.5rem;
 }
 
 
 
+}
+
+
+@media only screen and (max-width: 800px) {
+}
