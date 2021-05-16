@@ -82,9 +82,6 @@ class Art extends Component {
 
                     </div>
 
-
-
-
                 </div>
             </div>
         );

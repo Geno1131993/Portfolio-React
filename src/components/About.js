@@ -57,10 +57,6 @@ function About() {
         pastel_4
     ];
 
-
-
-    console.log(art);
-
     return (
         <div className="About">
             <title>About</title>
@@ -77,12 +73,6 @@ function About() {
                 <Art images = {art} interval = {1000}/>
                
             </div>
-
-
-        
-
-
-
 
             {/* Footer */}
 
