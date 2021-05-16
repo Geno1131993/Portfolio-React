@@ -8,7 +8,7 @@
     }
     .thumbnail {
         width: 28%;
-        height: 15rem;
+        height: 10rem;
         background-color: black;
         background-size: contain;
         background-position: center;
@@ -61,7 +61,7 @@
 
     #art_container{
         height: 30rem;
-        width: 30rem;
+        width: 80%;
         /* height: 50%; */
         display: inline-block;
         margin: auto;
