@@ -25,7 +25,6 @@ class Slides extends Component {
             thumbs: this.props.images,
             interval: this.props.interval
         });
-
     }
 
 
@@ -61,7 +60,6 @@ class Slides extends Component {
         }
         else {
             await this.setState(current_state => {
-                console.log(current_state);
                 return {
                     current_slide: current_state.current_slide + 1,
                     next_slide: current_state.next_slide + 1,
@@ -69,8 +67,6 @@ class Slides extends Component {
                 }
             });
         }
-        // console.log(`Previous: ${this.state.previous_slide}, Current: ${this.state.current_slide}, Next: ${this.state.next_slide}`);
-
     }
 
 
@@ -112,17 +108,16 @@ class Slides extends Component {
                 }
             });
         }
-
-        // console.log(`Previous: ${this.state.previous_slide}, Current: ${this.state.current_slide}, Next: ${this.state.next_slide}`);
     }
 
 
 
     render() {
+        
 
         return (
             <div className="slides">
-                <p id="adventure">Adventure is out there</p>
+                <p className = "headline">Adventure is out there</p>
 
                 <div id="controller">
                     <span className = "controller_button" onClick={this.previous} > Previous </span>
