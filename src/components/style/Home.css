@@ -43,6 +43,7 @@
         margin: 2%;
         color: white;
     }
+
     .icon_container {
         width: 20rem;
         background-color: rgba(255, 156, 96, 100);
@@ -164,6 +165,8 @@
             background-position: 0% 50%
         }
     }
+
+
     #background {
         width: 100vw;
         height: 120vh;
@@ -180,6 +183,7 @@
         overflow: auto;
         display: inline-block;
         text-align: center;
+        padding-bottom: 25%;
     }
     .gradient {
         width: 100vw;
@@ -206,13 +210,13 @@
         transition: .5s;
     }
     .icon_title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 2%;
         color: white;
     }
     .icon_container {
-        width: 20rem;
-        height: 20rem;
+        width: 15rem;
+        height: 15rem;
         background-color: rgba(255, 156, 96, .95);
         margin: 2%;
         padding: 1%;
@@ -253,23 +257,23 @@
     }
     #about_icon {
         background: url("../images/chalk_weeds.png");
-        background-size: 100%;
-        width: 65%;
-        height: 65%;
+        background-size: cover;
+        width: 55%;
+        height: 55%;
         margin: 1%;
     }
     #projects_icon {
         background: url("../images/chalk_laurel.png");
-        background-size: 100%;
-        width: 65%;
-        height: 65%;
+        background-size: cover;
+        width: 55%;
+        height: 55%;
         margin: 1%;
     }
     #contact_icon {
         background: url("../images/chalk_crosshairs.png");
-        background-size: 100%;
-        width: 65%;
-        height: 65%;
+        background-size: cover;
+        width: 55%;
+        height: 55%;
         margin: 1%;
     }
     #invisible {
