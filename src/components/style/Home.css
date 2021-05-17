@@ -43,7 +43,6 @@
     }
     .icon_container {
         width: 20rem;
-        width: 20rem;
         background-color: rgba(255, 156, 96, 100);
         margin: 2rem auto;
         padding: 1%;
@@ -98,7 +97,11 @@
         background-repeat: no-repeat;
     }
     #column_wrapper {
-        margin-bottom: 5%;
+        width: 80rem;
+        overflow: auto;
+        display: inline-block;
+        text-align: center;
+        height: 80%;
     }
     #button_container {
         width: 100%;
@@ -170,7 +173,7 @@
         zoom: 100%;
         min-zoom: 50%;
         max-zoom: 150%;
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed;
         overflow: auto;
     }
@@ -207,12 +210,14 @@
         width: 25rem;
         height: 25rem;
         background-color: rgba(255, 156, 96, .95);
-        margin: 1rem auto;
+        margin: 1rem;
         padding: 1%;
         display: block;
         text-align: center;
         transition: .5s;
         border-radius: 1rem;
+        float:left;
+
     }
     .icon_container:hover {
         background-color: rgba(255, 192, 216, .90);
@@ -272,11 +277,14 @@
         height: 70vh;
         margin: auto;
         transform: translateY(25%);
+        display: inline-block;
+        text-align: center;
+        overflow: auto;
     }
     #columns {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin: 1rem auto;
+        display: inline-block;
+        margin: 1rem;
+        text-align: center;
     }
     #footer {
         bottom: 0;
