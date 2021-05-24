@@ -2,21 +2,21 @@
 
 @media screen and (max-width: 800px) {
     body {
-        background-color: rgba(51, 102, 153, 1);
+        background-color: rgba(93, 93, 93, 1);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: none;
         width: 100%;
         height: 100vh;
         overflow: auto;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         padding-bottom: 18%;
         display: inline-block;
         text-align: center;
     }
     #logo {
         font-size: 5rem;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         white-space: nowrap;
     }
     .banner {
@@ -24,7 +24,7 @@
         padding: 1%;
         transition: .5s;
         width: 100%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
     }
     .banner:hover {
         background-color: rgba(255, 192, 216, 100);
@@ -34,14 +34,14 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         position: fixed;
         padding: 1%;
     }
     .icon_title {
         font-size: 3rem;
         margin: 2%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
     }
 
     .icon_container {
@@ -63,7 +63,7 @@
         transition: .25s;
     }
     #about_icon {
-        background: url("../images/chalk_weeds.png");
+        background: url("../images/chalk_weeds_cream.png");
         background-size: cover;
         background-repeat: none;
         width: 15rem;
@@ -71,7 +71,7 @@
         margin: 1%;
     }
     #projects_icon {
-        background: url("../images/chalk_laurel.png");
+        background: url("../images/chalk_laurel_cream.png");
         background-size: cover;
         background-repeat: none;
         width: 15rem;
@@ -79,7 +79,7 @@
         margin: 1%;
     }
     #contact_icon {
-        background: url("../images/chalk_crosshairs.png");
+        background: url("../images/chalk_crosshairs_cream.png");
         background-size: cover;
         background-repeat: none;
         width: 15rem;
@@ -88,11 +88,11 @@
     }
     #sig {
         font-size: 1rem;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         white-space: nowrap;
     }
     #sig_icon {
-        background: url("../images/signature.png");
+        background: url("../images/signature_cream.png");
         background-size: contain;
         height: 1rem;
         width: 10rem;
@@ -113,7 +113,7 @@
         font-family: "Trebuchet MS", sans-serif;
         border: none;
         background: none;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         font-size: 1.5rem;
         transition: .2s;
     }
@@ -173,7 +173,7 @@
         right: 0;
         top: 0;
         position: absolute;
-        background: url("../images/honeycombs_seafoam.png");
+        background: url("../images/honeycombs_charcoal.png");
         z-index: -2;
         zoom: 100%;
         min-zoom: 50%;
@@ -212,7 +212,7 @@
     .icon_title {
         font-size: 2.5rem;
         margin: 2%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
     }
     .icon_container {
         width: 15rem;
@@ -238,7 +238,7 @@
         font-family: "Trebuchet MS", sans-serif;
         border: none;
         background: none;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         font-size: 2rem;
         transition: .2s;
     }
@@ -252,25 +252,25 @@
     }
     #logo {
         font-size: 5rem;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         white-space: nowrap;
     }
     #about_icon {
-        background: url("../images/chalk_weeds.png");
+        background: url("../images/chalk_weeds_cream.png");
         background-size: cover;
         width: 55%;
         height: 55%;
         margin: 1%;
     }
     #projects_icon {
-        background: url("../images/chalk_laurel.png");
+        background: url("../images/chalk_laurel_cream.png");
         background-size: cover;
         width: 55%;
         height: 55%;
         margin: 1%;
     }
     #contact_icon {
-        background: url("../images/chalk_crosshairs.png");
+        background: url("../images/chalk_crosshairs_cream.png");
         background-size: cover;
         width: 55%;
         height: 55%;
@@ -292,17 +292,17 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         position: fixed;
         padding: 1%;
     }
     #sig {
         font-size: 1.5rem;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         white-space: nowrap;
     }
     #sig_icon {
-        background: url("../images/signature.png");
+        background: url("../images/signature_cream.png");
         background-size: 45%;
         height: 1.5rem;
         width: 10rem;

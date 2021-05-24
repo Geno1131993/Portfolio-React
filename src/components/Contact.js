@@ -4,7 +4,6 @@ import Footer from "./Footer.js";
 import "./style/Contact.css";
 
 
-const nodemailer = require("nodemailer");
 
 
 class Contact extends Component {
@@ -12,11 +11,11 @@ class Contact extends Component {
         super(props);
         this.state = {
             active: "linkedin",
-            name: "",
-            email: "",
-            phone: "",
-            organization: "",
-            details: ""
+            // name: "",
+            // email: "",
+            // phone: "",
+            // organization: "",
+            // details: ""
         }
     }
 
@@ -40,29 +39,25 @@ class Contact extends Component {
 
 
 
+// Functions for form -- form is temporarily disabled.
+
+    // update = async (e) => {
+    //     console.log("From update");
+    //     console.log(e.target.value);
+    //     await this.setState(
+    //         {
+    //             [e.target.name]: e.target.value
+    //         }
+    //     );
+    //     console.log(this.state);
+    // }
 
 
+    // submit = async (e) => {
+    //     console.log("From submit");
+    //     e.preventDefault();
 
-
-
-
-    update = async(e) => {
-        console.log("From update");
-        console.log(e.target.value);
-        await this.setState(
-            {
-                [e.target.name]: e.target.value
-            }
-        );
-        console.log(this.state);
-    }
-
-
-    submit = async(e) => {
-        console.log("From submit");
-        e.preventDefault();
-
-    }
+    // }
 
 
     render() {
@@ -114,6 +109,7 @@ class Contact extends Component {
                                 </div>
                             </div>
 
+
                             <div id="phone_content" className="content inactive">
                                 <div id="phone_icon" />
                                 <div className="content_body">
@@ -122,6 +118,7 @@ class Contact extends Component {
                                     <p id="phone_number"> (831) 346-8897 </p>
                                 </div>
                             </div>
+
 
                             <div id="github_content" className="content inactive">
                                 <div id="github_icon" />
@@ -134,14 +131,18 @@ class Contact extends Component {
                         </div>
 
 
-
-
                     </div>
+
+
+                    {/* 
+
+Removing contact form for now -- was going to use Nodemailer or Emailjs to send email, though it would have required exposing user ID and password on a public repository.
+
                     <div id="form_container">
 
                         <p id="contact_me">Contact for a complimentary consultation.</p>
 
-                        <form id="form" onSubmit={this.submit} action = "mailto:ukka.ukka.nuka.nuka.appu.wa@gmail.com" method = "post" encType = "text/plain">
+                        <form id="form" onSubmit={this.submit}>
                             <label className="label">
                                 Name: <input type="text" name="name" className="input" onChange={this.update} />
                             </label>
@@ -161,20 +162,17 @@ class Contact extends Component {
                         </form>
 
 
-                    </div>
+                    </div> 
+                    
+                    */}
 
 
                 </div>
 
-
-
-
                 <Footer />
             </div>
         );
-
     }
-
 }
 
 

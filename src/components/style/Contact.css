@@ -22,12 +22,12 @@
         font-size: 1.5rem;
         font-family: "Trebuchet MS", sans-serif;
         margin: 2%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
     }
     #contact_me {
         font-size: 1rem;
         margin: 2%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
     }
     #github_icon {
         width: 3rem;
@@ -76,7 +76,7 @@
     }
     .tab {
         margin: 2%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         font-size: 1rem;
         font-family: "Trebuchet MS", sans-serif;
         transition: .2s;
@@ -96,7 +96,7 @@
         width: 85%;
         padding: 2%;
         border-radius: 1rem;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         transition: .2s;
     }
     .content_body:hover {
@@ -105,7 +105,7 @@
     }
 
     .label{
-        color: white;
+        color: rgba(246, 238, 228, 1);
         font-family: "Trebuchet MS", sans-serif;
 
     }
@@ -115,7 +115,7 @@
         border: none;
         font-size: 1.25rem;
         font-family: "Trebuchet MS", sans-serif;
-        background-color: white;
+        color: rgba(246, 238, 228, 1);
         border-radius: .25rem;
         padding: 1%;
         margin: 1%;
@@ -139,7 +139,7 @@
 
     #form_container{
         float:center  ;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         padding: 3%;
         border-radius: 1rem;
         margin: 5%;
@@ -160,7 +160,7 @@
         font-size: 3rem;
         font-family: "Trebuchet MS", sans-serif;
         margin: 2%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
     }
     
     #github_icon {
@@ -231,7 +231,7 @@
         border: none;
         font-size: 1.25rem;
         font-family: "Trebuchet MS", sans-serif;
-        background-color: white;
+        color: rgba(246, 238, 228, 1);
         border-radius: .25rem;
         padding: 1%;
         margin: 1%;
@@ -252,7 +252,7 @@
     
     .tab {
         margin: 1%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         font-size: 2rem;
         font-family: "Trebuchet MS", sans-serif;
         transition: .2s;
@@ -274,7 +274,7 @@
         width: 80%;
         padding: 2%;
         border-radius: 1rem;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         transition: .2s;
         text-align: left;
         
@@ -290,7 +290,7 @@
     .label{
         margin: 2%;
         width: 100%;
-        color: white;
+        color: rgba(246, 238, 228, 1);
         font-size: 1.5rem;
         font-family: "Trebuchet MS", sans-serif;
         text-align: left;
