@@ -20,7 +20,7 @@
         white-space: nowrap;
     }
     .banner {
-        background-color: rgba(255, 156, 96, 100);
+        background-color: rgba(20, 20, 20, 100);
         padding: 1%;
         transition: .5s;
         width: 100%;
@@ -46,7 +46,7 @@
 
     .icon_container {
         width: 20rem;
-        background-color: rgba(255, 156, 96, 100);
+        background-color: rgba(20, 20, 20, 100);
         margin: 2rem auto;
         padding: 1%;
         display: block;
@@ -200,7 +200,7 @@
         overflow: auto;
     }
     .banner {
-        background-color: rgba(255, 156, 96, .95);
+        background-color: rgba(20, 20, 20, .95);
         padding: 1%;
         transition: .5s;
         width: 100%;
@@ -217,7 +217,7 @@
     .icon_container {
         width: 15rem;
         height: 15rem;
-        background-color: rgba(255, 156, 96, .95);
+        background-color: rgba(20, 20, 20, .95);
         margin: 2%;
         padding: 1%;
         display: inline-block;

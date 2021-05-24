@@ -1,7 +1,7 @@
 @media only screen and (max-width: 800px) {
     #about_container {
         width: 85%;
-        background-color: rgba(255, 156, 96, .95);
+        background-color: rgba(20, 20, 20, .95);
         margin: auto;
         border-radius: 1rem;
         overflow: auto;
@@ -135,7 +135,7 @@
     #about_container {
         width: 85rem;
         height: 65vh;
-        background-color: rgba(255, 156, 96, .95);
+        background-color: rgba(20, 20, 20, .95);
         margin: 2% auto;
         padding: 3% auto;
         color: white;

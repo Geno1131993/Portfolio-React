@@ -26,7 +26,7 @@ class Projects extends Component {
                 {/* Header */}
 
                 <Header title="Projects" buttons={buttons} />
-
+ 
 
 
                 {/* Lotuses and repos */}
@@ -34,7 +34,7 @@ class Projects extends Component {
                 <div id="wrapper">
                     <div id="lotus-tiles"></div>
                     <div id="github-repos-container">
-                        <RepoTable key="repo_table"/>
+                        <RepoTable key="repo_table" />
                     </div>
                 </div>
 
@@ -42,7 +42,7 @@ class Projects extends Component {
 
                 {/* Footer */}
 
-                <Footer/>
+                <Footer />
 
             </div>
         );

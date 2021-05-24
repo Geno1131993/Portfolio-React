@@ -4,18 +4,20 @@
         transition: .3s;
     }
     #contact_container {
-        background-color: rgba(255, 156, 96, .95);
+        background-color: rgba(20, 20, 20, .95);
         width: 85%;
         margin: auto;
-        text-align: left;
+        text-align: center;
         overflow: auto;
         border-radius: 1rem;
-        padding: 3%;
+        padding: 2%;
     }
     #tab_buttons {
         margin: 2%;
         font-family: "Trebuchet MS", sans-serif;
     }
+
+  
     #like_this {
         font-size: 1.5rem;
         font-family: "Trebuchet MS", sans-serif;
@@ -23,47 +25,47 @@
         color: white;
     }
     #contact_me {
-        font-size: 2rem;
+        font-size: 1rem;
         margin: 2%;
         color: white;
     }
     #github_icon {
-        width: 6rem;
-        height: 6rem;
+        width: 3rem;
+        height: 3rem;
         background-image: url("../images/GitHub-Mark.png");
         background-repeat: no-repeat;
         background-size: cover;
         float: left;
-        margin: 2%;
-        border-radius: 1rem;
+        margin: 3%;
+        border-radius: .5rem;
     }
     #linkedin_icon {
-        width: 6rem;
-        height: 6rem;
+        width: 3rem;
+        height: 3rem;
         background-image: url("../images/linkedin.png");
         background-repeat: no-repeat;
         background-size: cover;
         float: left;
-        margin: 2%;
-        border-radius: 1rem;
+        margin: 3%;
+        border-radius: .5rem;
     }
     #email_icon {
-        width: 6rem;
-        height: 6rem;
+        width: 3rem;
+        height: 3rem;
         background-image: url("../images/Mail.png");
         background-repeat: no-repeat;
         background-size: contain;
         float: left;
-        margin: 2%;
+        margin: 3%;
     }
     #phone_icon {
-        width: 6rem;
-        height: 6rem;
+        width: 3rem;
+        height: 3rem;
         background-image: url("../images/Phone.png");
         background-repeat: no-repeat;
         background-size: contain;
         float: left;
-        margin: 2%;
+        margin: 3%;
     }
     #tab_buttons {
         margin: 2%;
@@ -71,7 +73,6 @@
     }
     #content-container {
         display: inline-block;
-        text-align: center;
     }
     .tab {
         margin: 2%;
@@ -89,7 +90,6 @@
         transition: .2s;
     }
     .content_body {
-        float: left;
         margin: 2%;
         font-size: 1rem;
         background-color: rgba(102, 204, 153, 1);
@@ -103,16 +103,58 @@
         background-color: rgba(153, 102, 204, 1);
         transition: .2s;
     }
+
+    .label{
+        color: white;
+        font-family: "Trebuchet MS", sans-serif;
+
+    }
+
+    
+    #submit{
+        border: none;
+        font-size: 1.25rem;
+        font-family: "Trebuchet MS", sans-serif;
+        background-color: white;
+        border-radius: .25rem;
+        padding: 1%;
+        margin: 1%;
+        transition: .2s;
+    }
+
+
+    #submit:hover{
+        background-color: rgba(128, 144, 255, .85);
+        transition: .2s;
+    }
+
+
+    #submit:active{
+        color: rgba(51, 0, 102, 1);
+        transition: .2s;
+    }
 }
 
 @media screen and (min-width: 800px) {
+
+    #form_container{
+        float:center  ;
+        color: white;
+        padding: 3%;
+        border-radius: 1rem;
+        margin: 5%;
+    }
+
+
     #contact_container {
-        background-color: rgba(255, 156, 96, .95);
-        width: 85rem;
+        background-color: rgba(20, 20, 20, .95);
+        width: 80%;
         margin: auto;
-        text-align: left;
+        text-align: center;
         overflow: auto;
         border-radius: 1rem;
+        height: 60vh;
+        padding: 3%;
     }
     #like_this {
         font-size: 3rem;
@@ -120,11 +162,7 @@
         margin: 2%;
         color: white;
     }
-    #contact_me {
-        font-size: 4rem;
-        margin: 2%;
-        color: white;
-    }
+    
     #github_icon {
         width: 6rem;
         height: 6rem;
@@ -132,7 +170,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         float: left;
-        margin: 2%;
+        margin: 5%;
+        margin-left: 15%;
         border-radius: 1rem;
     }
     #linkedin_icon {
@@ -142,8 +181,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         float: left;
-        margin: 2%;
+        margin: 3%;
         border-radius: 1rem;
+        margin-left: 15%;
+
     }
     #email_icon {
         width: 6rem;
@@ -152,7 +193,9 @@
         background-repeat: no-repeat;
         background-size: contain;
         float: left;
-        margin: 2%;
+        margin: 3%;
+        margin-left: 15%;
+
     }
     #phone_icon {
         width: 6rem;
@@ -161,7 +204,9 @@
         background-repeat: no-repeat;
         background-size: contain;
         float: left;
-        margin: 2%;
+        margin: 3%;
+        margin-left: 15%;
+
     }
     #tab_buttons {
         margin: 2%;
@@ -169,8 +214,42 @@
     }
     #content-container {
         display: inline-block;
-        text-align: center;
+        text-align: left;
+        /* text-align: center; */
+        margin: auto;
+        width: 80%;
     }
+
+    #contact_me{
+        font-size: 2rem;
+        font-family: "Trebuchet MS", sans-serif;
+
+    }
+
+
+    #submit{
+        border: none;
+        font-size: 1.25rem;
+        font-family: "Trebuchet MS", sans-serif;
+        background-color: white;
+        border-radius: .25rem;
+        padding: 1%;
+        margin: 1%;
+        transition: .2s;
+    }
+
+
+    #submit:hover{
+        background-color: rgba(128, 144, 255, .85);
+        transition: .2s;
+    }
+
+
+    #submit:active{
+        color: rgba(51, 0, 102, 1);
+        transition: .2s;
+    }
+    
     .tab {
         margin: 1%;
         color: white;
@@ -186,16 +265,19 @@
         color: rgba(51, 0, 102, 1);
         transition: .2s;
     }
+
+  
     .content_body {
-        float: left;
-        margin: 2%;
+        margin: 5% auto;
         font-size: 2rem;
         background-color: rgba(102, 204, 153, 1);
-        width: 70%;
+        width: 80%;
         padding: 2%;
         border-radius: 1rem;
         color: white;
         transition: .2s;
+        text-align: left;
+        
     }
     .content_body:hover {
         background-color: rgba(153, 102, 204, 1);
@@ -205,4 +287,24 @@
         display: none;
         transition: .3s;
     }
+    .label{
+        margin: 2%;
+        width: 100%;
+        color: white;
+        font-size: 1.5rem;
+        font-family: "Trebuchet MS", sans-serif;
+        text-align: left;
+    }
+
+    .label:hover {
+        color: rgba(128, 144, 255, .85);
+        transition: .2s;
+    }
+
+    .input{
+        width: 100%;
+        margin: 1%;
+    }
+
+
 }

@@ -4,12 +4,19 @@ import Footer from "./Footer.js";
 import "./style/Contact.css";
 
 
+const nodemailer = require("nodemailer");
+
 
 class Contact extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            active: "linkedin"
+            active: "linkedin",
+            name: "",
+            email: "",
+            phone: "",
+            organization: "",
+            details: ""
         }
     }
 
@@ -17,12 +24,12 @@ class Contact extends Component {
     make_active = async (props) => {
         let content = document.getElementsByClassName("content");
         console.log(content);
-        for(let i = 0; i < content.length; i++){
-             if(!content[i].classList.contains("inactive") && content[i].id === `${props}_content`){
+        for (let i = 0; i < content.length; i++) {
+            if (!content[i].classList.contains("inactive") && content[i].id === `${props}_content`) {
                 console.log("User clicked active element.");
                 return;
             }
-            else if(content[i].id !== `${props}_content`){
+            else if (content[i].id !== `${props}_content`) {
                 await content[i].classList.add("inactive");
                 await content[i].classList.remove("active");
             }
@@ -33,13 +40,38 @@ class Contact extends Component {
 
 
 
+
+
+
+
+
+
+    update = async(e) => {
+        console.log("From update");
+        console.log(e.target.value);
+        await this.setState(
+            {
+                [e.target.name]: e.target.value
+            }
+        );
+        console.log(this.state);
+    }
+
+
+    submit = async(e) => {
+        console.log("From submit");
+        e.preventDefault();
+
+    }
+
+
     render() {
 
 
         let buttons = [["", "home", "Home"], ["projects", "projects", "Projects"], ["about", "about", "About"]];
 
         return (
-            <div className="Contact">
+            <div className="Contact" >
                 <title> Contact </title>
                 <div id="background"></div>
                 <div className="gradient"></div>
@@ -52,7 +84,6 @@ class Contact extends Component {
 
 
                     <div id="tab_wrapper">
-                        <p id="contact_me"> Contact me </p>
                         <div id="tab_buttons">
                             <span id="linkedin" onClick={() => this.make_active("linkedin")} className="tab">LinkedIn</span>
                             <span id="email" onClick={() => this.make_active("email")} className="tab">Email</span>
@@ -74,7 +105,7 @@ class Contact extends Component {
 
                             </div>
                             <div id="email_content" className="content inactive">
-                                <div id="email_icon"></div>
+                                <div id="email_icon" />
                                 <div className="content_body">
 
                                     <p> Send me an email! </p>
@@ -84,7 +115,7 @@ class Contact extends Component {
                             </div>
 
                             <div id="phone_content" className="content inactive">
-                                <div id="phone_icon"></div>
+                                <div id="phone_icon" />
                                 <div className="content_body">
 
                                     <p> Call me! </p>
@@ -93,7 +124,7 @@ class Contact extends Component {
                             </div>
 
                             <div id="github_content" className="content inactive">
-                                <div id="github_icon"></div>
+                                <div id="github_icon" />
                                 <div className="content_body">
                                     <p> Check out my Github repositories! </p>
                                     <p> Also, check out the Projects page!</p>
@@ -104,6 +135,30 @@ class Contact extends Component {
 
 
 
+
+                    </div>
+                    <div id="form_container">
+
+                        <p id="contact_me">Contact for a complimentary consultation.</p>
+
+                        <form id="form" onSubmit={this.submit} action = "mailto:ukka.ukka.nuka.nuka.appu.wa@gmail.com" method = "post" encType = "text/plain">
+                            <label className="label">
+                                Name: <input type="text" name="name" className="input" onChange={this.update} />
+                            </label>
+                            <label className="label">
+                                Email: <input type="text" name="email" className="input" onChange={this.update} />
+                            </label>
+                            <label className="label">
+                                Phone: <input type="text" name="phone" className="input" onChange={this.update} />
+                            </label>
+                            <label className="label">
+                                Organization: <input type="text" name="organization" className="input" onChange={this.update} />
+                            </label>
+                            <label className="label">
+                                Project details: <textarea className="textarea" name="details" onChange={this.update} />
+                            </label>
+                            <input type="submit" value="Submit" id="submit" />
+                        </form>
 
 
                     </div>
