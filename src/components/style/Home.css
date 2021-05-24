@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 800px) {
     body {
-        background-color: rgba(93, 93, 93, 1);
+        background-color: rgb(155, 245, 215);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: none;
@@ -224,7 +224,6 @@
         text-align: center;
         transition: .5s;
         border-radius: 1rem;
-        /* float: left; */
     }
     .icon_container:hover {
         background-color: rgba(255, 192, 216, .90);
